@@ -6,7 +6,8 @@
 
 # Spam-Message-Classification
 Classification of spam messages with Naive Bayes by scikit-learn
-## Intro to spam message
+
+## 垃圾短信介绍
 The task is to classify spam messages which are composed of Chinese characters, English, Numbers and some special characters. 
 Normal messages should be identified as 0, and spam messages as 1.
 
@@ -44,14 +45,15 @@ $ python word_vector.py
 
 ```
 $ python Mongo_Configure.py
+```
 
-**In**
+运行训练程序
 
 ```
 $ python bayes_Trainer.py
+```
 
-
-## Structure
+## 代码结构
 
 ```
 ├── Naive_Bayes
@@ -84,4 +86,3 @@ $ python bayes_Trainer.py
     ├── vector_type.json
     └── word_vector.mtx
 ```
-# spam-message-classification
