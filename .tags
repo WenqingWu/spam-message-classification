@@ -1,0 +1,151 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+DB_manager	Mongo_Configure.py	/^class DB_manager:$/;"	c
+Evaluator	Naive_Bayes/bayes_Evaluator.py	/^class Evaluator:$/;"	c
+Evaluator	SVM/SVM_Evaluator.py	/^class Evaluator:$/;"	c
+GaussianNB	Naive_Bayes/bayes_Trainer.py	/^from sklearn.naive_bayes import GaussianNB$/;"	i
+GridSearchCV	SVM/SVM_Trainer.py	/^from sklearn.model_selection import GridSearchCV$/;"	i
+MessageCountVectorizer	word_vector.py	/^class MessageCountVectorizer(sklearn.feature_extraction.text.CountVectorizer):$/;"	c
+MidpointNormalize	SVM/SVM_Trainer.py	/^class MidpointNormalize(Normalize):$/;"	c
+MongoClient	Mongo_Configure.py	/^from pymongo import MongoClient$/;"	i
+Normalize	SVM/SVM_Trainer.py	/^from matplotlib.colors import Normalize$/;"	i
+PCA	SVM/SVM_Trainer.py	/^from sklearn.decomposition import PCA$/;"	i
+PCA	preprocessing_data.py	/^from sklearn.decomposition import PCA$/;"	i
+Predictor	Naive_Bayes/bayes_Evaluator.py	/^from bayes_Predictor import Predictor$/;"	i
+Predictor	Naive_Bayes/bayes_Predictor.py	/^class Predictor:$/;"	c
+Predictor	SVM/SVM_Evaluator.py	/^from SVM_Predictor import Predictor$/;"	i
+Predictor	SVM/SVM_Predictor.py	/^class Predictor:$/;"	c
+SVC	SVM/SVM_Trainer.py	/^from sklearn.svm import SVC$/;"	i
+SVM_train	SVM/SVM_Trainer.py	/^def SVM_train(train_data, train_target):$/;"	f
+ShuffleSplit	Naive_Bayes/bayes_Trainer.py	/^from sklearn.model_selection import ShuffleSplit$/;"	i
+ShuffleSplit	SVM/SVM_Trainer.py	/^from sklearn.model_selection import ShuffleSplit$/;"	i
+StandardScaler	SVM/SVM_Trainer.py	/^from sklearn.preprocessing import StandardScaler$/;"	i
+StratifiedShuffleSplit	SVM/SVM_Trainer.py	/^from sklearn.model_selection import StratifiedShuffleSplit$/;"	i
+TfidfVectorizer	SVM/SVM_Trainer.py	/^from word_vector import TfidfVectorizer$/;"	i
+TfidfVectorizer	word_vector.py	/^class TfidfVectorizer(sklearn.feature_extraction.text.TfidfVectorizer):$/;"	c
+Trainer	Naive_Bayes/bayes_Trainer.py	/^    Trainer = Trainer_bayes(training_data.todense(), training_target)$/;"	v
+Trainer	SVM/SVM_Trainer.py	/^    Trainer = TrainerLinear(training_data, training_target)$/;"	v
+TrainerLinear	SVM/SVM_Evaluator.py	/^from SVM_Trainer import TrainerLinear$/;"	i
+TrainerLinear	SVM/SVM_Trainer.py	/^class TrainerLinear:$/;"	c
+TrainerRbf	SVM/SVM_Trainer.py	/^class TrainerRbf:$/;"	c
+Trainer_bayes	Naive_Bayes/bayes_Evaluator.py	/^from bayes_Trainer import Trainer_bayes$/;"	i
+Trainer_bayes	Naive_Bayes/bayes_Trainer.py	/^class Trainer_bayes:$/;"	c
+__call__	SVM/SVM_Trainer.py	/^    def __call__(self, value, clip=None):$/;"	m	class:MidpointNormalize	file:
+__init__	Naive_Bayes/bayes_Evaluator.py	/^    def __init__(self, training_data, training_target, test_data, test_target):$/;"	m	class:Evaluator
+__init__	Naive_Bayes/bayes_Predictor.py	/^    def __init__(self, test_data, test_target):$/;"	m	class:Predictor
+__init__	Naive_Bayes/bayes_Trainer.py	/^    def __init__(self, training_data, training_target):$/;"	m	class:Trainer_bayes
+__init__	SVM/SVM_Evaluator.py	/^    def __init__(self, training_data, training_target, test_data, test_target):$/;"	m	class:Evaluator
+__init__	SVM/SVM_Predictor.py	/^    def __init__(self, test_data, test_target):$/;"	m	class:Predictor
+__init__	SVM/SVM_Trainer.py	/^    def __init__(self, training_data, training_target):$/;"	m	class:TrainerLinear
+__init__	SVM/SVM_Trainer.py	/^    def __init__(self, training_data, training_target):$/;"	m	class:TrainerRbf
+__init__	SVM/SVM_Trainer.py	/^    def __init__(self, vmin=None, vmax=None, midpoint=None, clip=False):$/;"	m	class:MidpointNormalize
+analyzer	word_vector.py	/^        def analyzer(doc):$/;"	f	function:MessageCountVectorizer.build_analyzer
+analyzer	word_vector.py	/^        def analyzer(doc):$/;"	f	function:TfidfVectorizer.build_analyzer
+bayes_train	Naive_Bayes/bayes_Trainer.py	/^def bayes_train(train_data, train_target):$/;"	f
+build_analyzer	word_vector.py	/^    def build_analyzer(self):$/;"	m	class:MessageCountVectorizer
+build_analyzer	word_vector.py	/^    def build_analyzer(self):$/;"	m	class:TfidfVectorizer
+clf	Naive_Bayes/bayes_Evaluator.py	/^    clf = joblib.load('model\/bayes_estimator.pkl')$/;"	v	class:Evaluator
+clf	SVM/SVM_Evaluator.py	/^    clf = joblib.load('model\/SVM_linear_estimator.pkl')$/;"	v	class:Evaluator
+client	Mongo_Configure.py	/^    client = MongoClient()$/;"	v	class:DB_manager
+content	Naive_Bayes/bayes_Evaluator.py	/^    content = io.mmread('..\/Data\/word_vector.mtx')$/;"	v
+content	Naive_Bayes/bayes_Trainer.py	/^    content = content$/;"	v
+content	Naive_Bayes/bayes_Trainer.py	/^    content = io.mmread('..\/Data\/word_vector.mtx')$/;"	v
+content	SVM/SVM_Evaluator.py	/^    content = io.mmread('..\/Data\/word_vector.mtx')$/;"	v
+content	SVM/SVM_Trainer.py	/^    content = io.mmread('..\/Data\/word_vector.mtx')$/;"	v
+cross_val_score	Naive_Bayes/bayes_Trainer.py	/^from sklearn.model_selection import cross_val_score$/;"	i
+cross_val_score	SVM/SVM_Trainer.py	/^from sklearn.model_selection import cross_val_score$/;"	i
+cross_validation	Naive_Bayes/bayes_Evaluator.py	/^    def cross_validation(self):$/;"	m	class:Evaluator
+cross_validation	Naive_Bayes/bayes_Trainer.py	/^    def cross_validation(self):$/;"	m	class:Trainer_bayes
+cross_validation	SVM/SVM_Evaluator.py	/^    def cross_validation(self):$/;"	m	class:Evaluator
+cross_validation	SVM/SVM_Trainer.py	/^    def cross_validation(self):$/;"	m	class:TrainerLinear
+cross_validation	SVM/SVM_Trainer.py	/^    def cross_validation(self):$/;"	m	class:TrainerRbf
+data_storage	load_data.py	/^def data_storage(content, label):$/;"	f
+db	Mongo_Configure.py	/^    db = client.test1$/;"	v	class:DB_manager
+dimensionality_reduction	Naive_Bayes/bayes_Evaluator.py	/^from preprocessing_data import dimensionality_reduction$/;"	i
+dimensionality_reduction	Naive_Bayes/bayes_Trainer.py	/^from preprocessing_data import dimensionality_reduction$/;"	i
+dimensionality_reduction	SVM/SVM_Evaluator.py	/^from preprocessing_data import dimensionality_reduction$/;"	i
+dimensionality_reduction	SVM/SVM_Trainer.py	/^from preprocessing_data import dimensionality_reduction$/;"	i
+dimensionality_reduction	preprocessing_data.py	/^def dimensionality_reduction(training_data, test_data, type='pca'):$/;"	f
+draw_visualization_param_effect	SVM/SVM_Trainer.py	/^    def draw_visualization_param_effect(self, grid, C_range, gamma_range):$/;"	m	class:TrainerRbf
+evaluator	Naive_Bayes/bayes_Evaluator.py	/^    evaluator = Evaluator(training_data.todense(), training_target, test_data.todense(), test_target)$/;"	v
+evaluator	SVM/SVM_Evaluator.py	/^    evaluator = Evaluator(training_data, training_target, test_data, test_target)$/;"	v
+feature_extraction	word_vector.py	/^import sklearn.feature_extraction.text$/;"	i
+feature_selection	SVM/SVM_Trainer.py	/^def feature_selection(data, data_target, feature_names):$/;"	f
+import_training_data	Mongo_Configure.py	/^    def import_training_data(self, word_vector_file, train_label_file):$/;"	m	class:DB_manager
+io	Mongo_Configure.py	/^from scipy import sparse, io$/;"	i
+io	Naive_Bayes/bayes_Evaluator.py	/^from scipy import sparse, io$/;"	i
+io	Naive_Bayes/bayes_Trainer.py	/^from scipy import sparse, io$/;"	i
+io	SVM/SVM_Evaluator.py	/^from scipy import sparse, io$/;"	i
+io	SVM/SVM_Trainer.py	/^from scipy import sparse, io$/;"	i
+io	preprocessing_data.py	/^from scipy import sparse, io$/;"	i
+io	word_vector.py	/^from scipy import sparse, io$/;"	i
+jieba	word_vector.py	/^import jieba$/;"	i
+jieba	word_vector.py	/^import jieba.posseg as pseg$/;"	i
+joblib	Naive_Bayes/bayes_Evaluator.py	/^from sklearn.externals import joblib$/;"	i
+joblib	Naive_Bayes/bayes_Trainer.py	/^from sklearn.externals import joblib$/;"	i
+joblib	SVM/SVM_Evaluator.py	/^from sklearn.externals import joblib$/;"	i
+joblib	SVM/SVM_Trainer.py	/^from sklearn.externals import joblib$/;"	i
+json	Mongo_Configure.py	/^import json$/;"	i
+json	Naive_Bayes/bayes_Evaluator.py	/^import json$/;"	i
+json	Naive_Bayes/bayes_Trainer.py	/^import json$/;"	i
+json	SVM/SVM_Evaluator.py	/^import json$/;"	i
+json	SVM/SVM_Trainer.py	/^import json$/;"	i
+json	load_data.py	/^import json$/;"	i
+json	word_vector.py	/^import json$/;"	i
+label	Naive_Bayes/bayes_Trainer.py	/^        label = json.load(f)$/;"	v
+label	SVM/SVM_Trainer.py	/^        label = json.load(f)$/;"	v
+learn_best_param	SVM/SVM_Trainer.py	/^    def learn_best_param(self):$/;"	m	class:TrainerLinear
+learn_best_param	SVM/SVM_Trainer.py	/^    def learn_best_param(self):$/;"	m	class:TrainerRbf
+load_data	word_vector.py	/^import load_data$/;"	i
+load_message	load_data.py	/^def load_message():$/;"	f
+matplotlib	SVM/SVM_Trainer.py	/^import matplotlib.pyplot as plt$/;"	i
+metrics	Naive_Bayes/bayes_Predictor.py	/^from sklearn import metrics$/;"	i
+metrics	Naive_Bayes/bayes_Trainer.py	/^from sklearn import metrics$/;"	i
+metrics	SVM/SVM_Predictor.py	/^from sklearn import metrics$/;"	i
+metrics	SVM/SVM_Trainer.py	/^from sklearn import metrics$/;"	i
+new_predict	Naive_Bayes/bayes_Predictor.py	/^    def new_predict(self, clf):$/;"	m	class:Predictor
+new_predict	SVM/SVM_Predictor.py	/^    def new_predict(self, clf):$/;"	m	class:Predictor
+np	Mongo_Configure.py	/^import numpy as np$/;"	i
+np	Naive_Bayes/bayes_Trainer.py	/^import numpy as np$/;"	i
+np	SVM/SVM_Trainer.py	/^import numpy as np$/;"	i
+np	word_vector.py	/^import numpy as np$/;"	i
+plt	SVM/SVM_Trainer.py	/^import matplotlib.pyplot as plt$/;"	i
+predict	Naive_Bayes/bayes_Evaluator.py	/^    def predict(self, type):$/;"	m	class:Evaluator
+predict	SVM/SVM_Evaluator.py	/^    def predict(self, type):$/;"	m	class:Evaluator
+preprocessing	Naive_Bayes/bayes_Evaluator.py	/^from sklearn import preprocessing$/;"	i
+preprocessing	preprocessing_data.py	/^from sklearn import preprocessing$/;"	i
+process_cont_numbers	word_vector.py	/^def process_cont_numbers(content):$/;"	f
+pseg	word_vector.py	/^import jieba.posseg as pseg$/;"	i
+re	word_vector.py	/^import re$/;"	i
+sample_predict	Naive_Bayes/bayes_Predictor.py	/^    def sample_predict(self, clf):$/;"	m	class:Predictor
+sample_predict	SVM/SVM_Predictor.py	/^    def sample_predict(self, clf):$/;"	m	class:Predictor
+sklearn	word_vector.py	/^import sklearn.feature_extraction.text$/;"	i
+sparse	Mongo_Configure.py	/^from scipy import sparse, io$/;"	i
+sparse	Naive_Bayes/bayes_Evaluator.py	/^from scipy import sparse, io$/;"	i
+sparse	Naive_Bayes/bayes_Trainer.py	/^from scipy import sparse, io$/;"	i
+sparse	SVM/SVM_Evaluator.py	/^from scipy import sparse, io$/;"	i
+sparse	SVM/SVM_Trainer.py	/^from scipy import sparse, io$/;"	i
+sparse	preprocessing_data.py	/^from scipy import sparse, io$/;"	i
+sparse	word_vector.py	/^from scipy import sparse, io$/;"	i
+split_data	Naive_Bayes/bayes_Evaluator.py	/^from preprocessing_data import split_data$/;"	i
+split_data	Naive_Bayes/bayes_Trainer.py	/^from preprocessing_data import split_data$/;"	i
+split_data	SVM/SVM_Evaluator.py	/^from preprocessing_data import split_data$/;"	i
+split_data	SVM/SVM_Trainer.py	/^from preprocessing_data import split_data$/;"	i
+split_data	preprocessing_data.py	/^def split_data(content, label):$/;"	f
+standardized_data	preprocessing_data.py	/^def standardized_data(content, label):$/;"	f
+svm	SVM/SVM_Trainer.py	/^from sklearn import svm$/;"	i
+text	word_vector.py	/^import sklearn.feature_extraction.text$/;"	i
+time	preprocessing_data.py	/^from time import time$/;"	i
+train	Naive_Bayes/bayes_Evaluator.py	/^    def train(self):$/;"	m	class:Evaluator
+train	SVM/SVM_Evaluator.py	/^    def train(self):$/;"	m	class:Evaluator
+train_classifier	Naive_Bayes/bayes_Trainer.py	/^    def train_classifier(self):$/;"	m	class:Trainer_bayes
+train_classifier	SVM/SVM_Trainer.py	/^    def train_classifier(self):$/;"	m	class:TrainerLinear
+train_classifier	SVM/SVM_Trainer.py	/^    def train_classifier(self):$/;"	m	class:TrainerRbf
+train_test_split	SVM/SVM_Trainer.py	/^from sklearn.model_selection import train_test_split$/;"	i
+train_test_split	preprocessing_data.py	/^from sklearn.model_selection import train_test_split$/;"	i
+training_data	Mongo_Configure.py	/^    training_data = db.training_datas$/;"	v	class:DB_manager
+vector_word	word_vector.py	/^def vector_word():$/;"	f
