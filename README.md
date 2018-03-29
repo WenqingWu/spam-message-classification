@@ -1,3 +1,9 @@
+参考Github上使用SVM进行垃圾短信分类的例子，实现的基于朴素贝叶斯进行垃圾短信分类
+
+##reference
+
+[https://github.com/ZPdesu/Spam-Message-Classifier-sklearn]
+
 # Spam-Message-Classification
 Classification of spam messages with Naive Bayes by scikit-learn
 ## Intro to spam message
@@ -23,7 +29,7 @@ Snapshoot of training data : `RawData/junk_message.txt`
 进入项目文件夹下，从RawData/junk_message.txt中加载原始数据，进行文本域和标签域分割，转存到对应json文件中
 
 ```
-$ cd Spam-Message-Classifier-sklearn
+$ cd Spam-Message-Classification
 $ python load_data.py
 ```
 
