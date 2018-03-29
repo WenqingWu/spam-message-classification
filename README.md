@@ -1,6 +1,6 @@
 参考Github上使用SVM进行垃圾短信分类的例子，实现的基于朴素贝叶斯进行垃圾短信分类
 
-##reference
+## Reference
 
 [https://github.com/ZPdesu/Spam-Message-Classifier-sklearn]
 
